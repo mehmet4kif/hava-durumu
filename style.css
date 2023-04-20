@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #93C6E7 !important;
+    background-image: url(back2.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: "Poppins" !important;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.app{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f9f1e8;
+    width: 80%;
+    padding: 70px 10px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.header h1{
+    font-size: 50px;
+}
+.header input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.content{
+    margin-top: 10px;
+}
+.city{
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.temp{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.minmax{
+    font-size: 24px;
+}
+.humidity{
+    font-size: 24px;
+}
+#search{
+    padding: 10px 15px;
+    margin-top: 5px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    outline: none;
+    border:none;
+    border-radius: 10px;
+    background-color: white;
+
+}
+.material-symbols-outlined{
+    transform: scale(1.1);
+}
+.col-sm-3{
+    border-bottom: rgba(0, 0, 0, 0.3) 1px solid;
+}
